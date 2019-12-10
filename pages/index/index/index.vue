@@ -20,7 +20,7 @@
             <div class="position_absolute pcs width_80_pc">
                 <div
                     class="white font_weight_800 welcome text_center font_size_40"
-                >BirdLink HK Limited</div>
+                >Welcome To BirdLink HK Limited</div>
                 <div class="text_center margin_top_4">
                     <!-- <div
                         class="margin_auto display_inline_block margin_top_10 nownet_button"
