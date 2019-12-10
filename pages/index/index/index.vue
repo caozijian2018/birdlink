@@ -92,12 +92,18 @@
                 </div>
             </div>
         </div>
+        <app-footer></app-footer>
     </div>
 </template>
 
 <script>
 import bus from "../../../util/bus";
+import appFooter from "../../../components/footer";
+
 export default {
+    components: {
+        appFooter
+    },
     mounted() {
         this.innerHeight = this.$store.state.innerHeight;
         this.setItemHeight();
