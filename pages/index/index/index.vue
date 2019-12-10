@@ -9,7 +9,9 @@
             :style="{'height':$store.state.innerHeight}"
         >
             <div class="width_80_pc margin_auto margin_top_3 display_flex flex_jusify_space">
-                <img src="../../../static/img/lg.png" class="logoimg" alt />
+                <div class="logoimg">
+                    <img src="../../../static/img/lg.png" class="width_100" alt />
+                </div>
                 <!-- <div class="white">
                     <div class="font_weight_200 font_size_15">Have Question? Get Answers</div>
                     <span class="font_weight_600 font_size_30">+852 2529 0318</span>
@@ -18,7 +20,7 @@
             <div class="position_absolute pcs width_80_pc">
                 <div
                     class="white font_weight_800 welcome text_center font_size_40"
-                >Welcome to Mobile Network Technlolgy Co., Limited</div>
+                >BirdLink HK Limited</div>
                 <div class="text_center margin_top_4">
                     <!-- <div
                         class="margin_auto display_inline_block margin_top_10 nownet_button"
