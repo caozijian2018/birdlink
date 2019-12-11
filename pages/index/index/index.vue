@@ -114,11 +114,11 @@ export default {
             innerHeight: "0px",
             address_arr: [{
                 name: "Address",
-                txt: "Address：No.8, 11/F, HongHui Industrial Building, No. 29, Liuhe Street, Xinpu Gang, Kowloon, Hong Kong "
+                txt: "香港九龍新蒲崗六合 29 號宏輝工業大廈 2 樓 3 號"
             },
             {
                 name: "E-Mail",
-                txt: "customer@nownet.com"
+                txt: "birdlee@birdlink.im"
             }
             ],
             introarr: [

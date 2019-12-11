@@ -5,7 +5,7 @@
         </div>
         <img src="../../static/img/white.png" style="width: 150px" alt="">
         <div class="white font_size_15 margin_top_10">
-            香港九龍新蒲崗六合 29 號宏輝工業大廈 2 樓 3 號
+            BirdLink HK Limited
         </div>
     </div>
 </template>
