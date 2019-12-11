@@ -1,8 +1,5 @@
 <template>
     <div class="footer text_center">
-        <div class="white font_size_15 margin_bottom_1">
-            birdlee@birdlink.im 
-        </div>
         <img src="../../static/img/white.png" style="width: 150px" alt="">
         <div class="white font_size_15 margin_top_10">
             BirdLink HK Limited

@@ -10,11 +10,15 @@ body {
 .ddd {
   color: rgb(180, 180, 180);
 }
-
+.margin_top_100{
+  margin-top: 60px;
+}
 .gray {
   color: rgb(50, 50, 50);
 }
-
+.padding_bottom_50{
+  padding-bottom: 50px;
+}
 .nownet_button {
   /* display: inline-block; */
   background-color: #82b541;

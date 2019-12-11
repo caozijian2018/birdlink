@@ -46,15 +46,15 @@
                     >
                         <img :src="item.img" class="pc_show" style="width:60px;height:60px;" alt />
                         <div class="padding_left_1">
-                            <h2 class="margin_bottom_15">{{item.name}}</h2>
-                            <div class="gray line_height_25px">
+                            <h1 class="margin_bottom_15 ">{{item.name}}</h1>
+                            <div class="gray line_height_27px" style="font-size:17px">
                                 {{item.txt}}
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="text_center margin_top_4" style="border-bottom: 1px solid transparent">
+            <div class="text_center margin_top_100" style="border-bottom: 1px solid transparent">
                 <div class="font_size_21 font_phone_40">How We Work</div>
                 <div
                     class="margin_bottom_2 font_size_36 font_phone  font_weight_800 gray"
@@ -69,7 +69,7 @@
                 </div>
             </div>
         </div>
-        <div class="back_white padding_top_30 padding_bottom_30 text_center">
+        <div class="back_white padding_top_30 padding_bottom_50 text_center">
             <div class="width_80_pc margin_auto">
                 <h1 class="margin_top_3 margin_bottom_4">Why Choose Us</h1>
                 <div class="margin_top_10 font_size_20 font_weight_400 line margin_bottom_15">
@@ -81,7 +81,7 @@
             </div>
         </div>
         <div class="fiveth_div white text_center">
-            <div class="padding_top_20 font_size_5">Need Help ?</div>
+            <div class="padding_top_70 font_size_5">Need Help ?</div>
             <h1 class="font_size_40 margin_top_20">CONTACT WITH US</h1>
             <div class="width_80_pc margin_auto display_flex flex_jusify_space media_flex_row_800">
                 <div class="border_white" :class="{width_30: $store.state.is_pc,width_100: !$store.state.is_pc}" v-for="item in address_arr" :key="item.name">
