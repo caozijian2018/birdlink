@@ -29,7 +29,7 @@
             </div>
         </div>
         <div
-            class="second_page border_top_0 back_white"
+            class="second_page border_top_0 back_white display_flex flex_column flex_align_stretch"
             :style="{'height':$store.state.is_pc ? $store.state.innerHeight : '' }"
         >
             <div class="text_center margin_top_4">
@@ -54,7 +54,7 @@
                     </div>
                 </div>
             </div>
-            <div class="text_center margin_top_100" style="border-bottom: 1px solid transparent">
+            <div class="text_center margin_bottom_4" style="border-bottom: 1px solid transparent">
                 <div class="font_size_21 font_phone_40">How We Work</div>
                 <div
                     class="margin_bottom_2 font_size_36 font_phone  font_weight_800 gray"
@@ -204,7 +204,7 @@ export default {
             box-sizing: border-box;
             line-height: 30px;
         }
-        padding-bottom: 30px;
+        padding-bottom: 60px;
     }
 }
 @media screen and (max-width: 800px) {
